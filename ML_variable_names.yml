@@ -1,0 +1,103 @@
+#For Boolean (Yes/No) if no '' are used, it will default to True/False
+#For adding breaks in the lines, use |
+
+sex: 
+    label:  Sex
+    classes:
+        0: Male
+        1: Female
+age: 
+    label:  Age
+bmi: 
+    label:  Body Mass Index
+smoker: 
+    label:  Smoker
+    classes:
+        0:  'No'
+        1:  Yes
+nativespeaker: 
+    label:  Native Speaker
+    classes:
+        0:  'No'
+        1:  Yes
+education: 
+    label:  Education Level
+    classes:
+        1:  Lower secondary
+        2:  Upper secondary
+        3:  University
+workreq: 
+    label:  Work Status
+    classes:
+        1:  Not working
+        2:  Sedentary
+        3:  Moderate
+        4:  Heavy
+dispension: 
+    label:  'Disability pension'
+    classes:
+        0:  'No'
+        1:  Yes
+paindurneck: 
+    label:  'Duration of neck pain'
+    classes:
+        1:  Less than 3 months
+        2:  Between 3 to 12 months
+        3:  Between 12 to 24 months
+        4:  More than 24 months
+paindurarms: 
+    label:  'Duration of arm pain'
+    classes:
+        1:  Less than 3 months
+        2:  Between 3 to 12 months
+        3:  Between 12 to 24 months
+        4:  More than 24 months
+nrsheadache: 
+    label:  NRS headache
+nrsneck: 
+    label:  NRS neck pain
+nrsarm: 
+    label:  NRS arm pain
+painarms: 
+    label:  Pain in both shoulder/arms
+    classes:
+        0:  'No'
+        1:  Yes
+ndi:
+    label: NDI
+eq5d:
+    label: EQ-5D
+eqvas:
+    label: EQ VAS
+anxdep: 
+    label:  'Anxiety or depresion'
+    classes:
+        0:  'No'
+        1:  Yes
+prevsurg: 
+    label:  Previous surgery
+comorbid: 
+    label:  Comorbidity
+    classes:
+        0:  None
+        1:  One
+        2:  Two
+        3:  Three or more
+asa:
+    label: ASA score
+analgesicsfreq: 
+    label:  Analgesics use
+    classes:
+        1:  Monthly
+        2:  Weekly
+        3:  Daily
+posteriorapp:
+    label: Posterior approach
+    classes:
+        0:  'No'
+        1:  Yes
+private: 
+    label:  'Private hospital'
+    classes:
+        0:  'No'
+        1:  Yes
